@@ -1,0 +1,9 @@
+<div>
+    <ul class="carte" *ngFor="let affiche of person">
+        <li>nom : {{affiche.name}}</li>
+        <li> Age : {{affiche.age}} </li>
+        <li> Hobbie : {{affiche.hobbie}}</li>
+        <button (click)="efface(affiche)">efface moi</button>
+    </ul>
+    
+</div>
